@@ -1,0 +1,23 @@
+// 需要新增的mateInfo信息
+mateInfo: {
+    
+    relationModel: {// 与主轴的关系，目前仅自动字幕使用
+        mainAxisSourceId: "",// 与元素关联的视频轴标识（作用：关联视频轴元素）
+        startTimeOffset: "",// 元素与主轴在时间轴上，开始时间的delta（作用：进行关联视频轴时，根据delta计算元素操作范围）
+        sourceVideoStartTimeInSelf: "",// 与元素关联的视频轴，自身的开时时间（作用：计算元素是否在视频轴范围内，按需裁剪元素）
+    },
+    // --- 文字 ---
+    isAutoRecognition: true,// 是否为自动识别字幕
+    elementSpeed: 1.0,// 元素播放速度
+
+    // --- 录音 ---
+    // --- 音乐 ---
+    cardPoint: {
+        cardPointType: "base/fast/dynamic",// 音频卡点类型
+        autoCardPoints: [],// 自动卡点数据，如[0.1, 0.2, 0.3 ....]
+        manualCardPoints: [],// 手动卡点数据，如[0.1, 0.2, 0.3 ....]   
+    }
+    // --- 音效 ---
+    // --- 文字配音 ---
+    // --- 贴纸 ---
+}
