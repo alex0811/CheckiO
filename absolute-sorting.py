@@ -1,11 +1,8 @@
 def checkio(numbers_array: tuple) -> list:
-    print(numbers_array)
-    dff = sorted(
+    return sorted(
         numbers_array,
         key=lambda x: abs(x)
     )
-    print(dff)
-    return dff
 
 #These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':
