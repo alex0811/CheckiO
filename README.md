@@ -1,2 +1,2 @@
 # CheckiO
-个人CheckiO打卡记录 😸
+个人 CheckiO 打卡记录 😸
