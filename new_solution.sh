@@ -1,6 +1,6 @@
 #!/bin/bash
 # author:zhangfan
-# CheckIO 打卡文档创建脚本
+# CheckiO 打卡文档创建脚本
 
 task_name=$1
 time=$(date "+%Y-%m-%d")
