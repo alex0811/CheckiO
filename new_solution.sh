@@ -3,6 +3,14 @@
 # CheckiO 打卡文档创建脚本
 
 task_name=$1
+
+if [ ${#task_name} == 0 ]
+then
+    echo "empty task name."
+    exit
+fi
+
+
 time=$(date "+%Y-%m-%d")
 task_folder_name=$task_name'-'$time
 description_name=$task_name'-description.md'

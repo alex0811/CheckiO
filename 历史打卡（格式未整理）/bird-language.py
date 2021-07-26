@@ -1,5 +1,3 @@
-import re
-
 def translate(text: str) -> str:
     consonants = 'bcdfgjklmnpqstvxzhrw'
     vowels = 'aeiouy'
